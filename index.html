@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimePass</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollto/1.4.6/jquery-scrollto.min.js" integrity="sha512-AJcVH5BU8a2lLY4kCICKZCECpW72qvj0LHHdreXq9paUVQx5wiFLv3n4ySnGeRSAbWqTxNnicvhKN9x+/yVDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="nav-right">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="mainCover"></section>
+    <div class="title">
+      <h1>Timepass Shoes</h1>
+      <p class="tagLine">We make......you fool</p>
+    </div>
+
+    <div class="about">
+      <div class="aboutTitle" id="about">
+        <h1>About Us</h1>
+      </div>
+      <p class="desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae
+        odit veritatis amet tempora laudantium harum soluta quod quam
+        exercitationem eius vitae incidunt reiciendis porro, ipsa obcaecati
+        possimus quasi minus cum enim hic laboriosam totam. Laborum illo
+        distinctio laboriosam, tempora nam, sed blanditiis quidem, maxime
+        suscipit ipsum aut amet illum porro sit. Rem ipsam nulla repellat
+        quisquam inventore dicta? Fugiat! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Et facere voluptates ea obcaecati recusandae inventore
+        aperiam pariatur dolore, totam, eum amet ipsam autem porro. Provident,
+        minus, porro eius ipsum numquam cupiditate alias dolorum amet molestiae
+        sit est atque impedit. Tempora, repellendus quasi natus itaque
+        voluptates, eum recusandae maiores, velit ipsum deleniti illum cumque.
+        Impedit distinctio eaque culpa ullam non nisi nostrum corporis, harum,
+        fugiat debitis labore esse itaque adipisci et iusto quos porro quis
+        atque nesciunt numquam cupiditate provident! Dicta aperiam soluta ab
+        rerum corrupti, quasi distinctio reprehenderit cupiditate enim debitis
+        doloribus neque, animi, consequatur iure amet. Illum, labore placeat.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="galleryTitle" id="gallery">
+        <h1 class="galleryText">Gallery</h1>
+      </div>
+      <!-- <ul>
+
+        <li class="list active" data-filter="all">All</li>
+        <li class="list" data-filter="shoe1">shoe1</li>
+        <li class="list" data-filter="shoe2">Shoe2</li>
+        <li class="list" data-filter="shoe3">Shoe3</li>
+        <li class="list" data-filter="shoe4">Shoe4</li>
+
+      </ul> -->
+
+      <div class="product">
+
+        <div class="itemBox"  data-item="shoe1">
+
+          <img src="shoe1.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe1">
+
+          <img src="shoe2.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe1">
+
+          <img src="shoe3.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe2">
+
+          <img src="shoe4.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe2">
+
+          <img src="shoe5.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe2">
+
+          <img src="shoe6.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe2">
+
+          <img src="shoe7.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe2">
+
+          <img src="shoe8.webp">
+        
+        </div>
+
+        <div class="itemBox"  data-item="shoe2">
+
+          <img src="shoe9.webp">
+        
+        </div>       
+
+      </div>
+
+    </div>
+
+    <div class="galleryTitle" id="team">
+      <h1 class="teamText">Our Team</h1>
+    </div>
+    <div class="container">
+      <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="pexels-antoni-shkraba-5862269.jpg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>James Ford</h4>
+                  <h5>Director General</h5>
+              </div>
+              <div class="sci">
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="pexels-mikhail-nilov-8871924.jpg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>Ann Brown</h4>
+                  <h5>Mannager</h5>
+              </div>
+              <div class="sci">
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="content">
+              <div class="imgBx">
+                  <img src="young-g93feed35a_1920.jpg" alt="">
+              </div>
+              <div class="contentBx">
+                  <h4>Ben Jason</h4>
+                  <h5>Developer</h5>
+              </div>
+              <div class="sci">
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="contact" id="contact">
+    <form name="myForm" action="final.html" method="get">
+      <h1 class="contactTitle">Contact Us</h1>
+
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter your message" rows="6"></textarea>
+
+      <div class="center">
+        <input type="submit" value="Send Message" onclick="return validation()">
+        <input type="reset" value="Reset Form">
+      </div>
+    </form>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </body>
+</html>
